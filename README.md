@@ -38,6 +38,15 @@ Veja abaixo:
   > ATENÇÃO: A chamada desta função NÃO é obrigatória. 
 Deve-se utiliza-la apenas nos casos citados acima
 
+Para um **rastreamento de evento**, é necessário utilizar o seguinte comando:
+```javascript
+  <script type="text/javascript"> 
+    utag.link({"someKey1":"someValue1","someKey2":"someValue2"})
+  </script> 
+```
+> Observação: No exemplo acima, os valores "someKey" e "someValue" serão substituídos pelas variáveis da camada de dados 
+e suas respectivas informações definidas a seguir neste documento.
+
 ## Camada de dados
 
 #### Variáveis da camada de dados
@@ -100,7 +109,7 @@ _Condição para preenchimento:_ Quando o usuário realizar o login com sucesso.
 | user_userClassification   	|
 
 ##### Grupo 3
-_Condição para preenchimento:_ "Após o usuário alterar suas informações e salva-las com sucesso. OBS: Deve ocorrer uma chamada do tipo ""Rastreamento de eventos/ações"" quando o usuário salvar suas informações"
+_Condição para preenchimento:_ "Após o usuário alterar suas informações e salva-las com sucesso. OBS: Deve ocorrer uma chamada do tipo "Rastreamento de eventos/ações" quando o usuário salvar suas informações"
 
 | Variável                  	|
 |---------------------------	|
