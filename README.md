@@ -56,7 +56,7 @@ A Camada de Dados (Data Layer) é composta pelo objeto Javascript (descrito a se
 A seguir está a descrição de cada um dos atributos do objeto e quando devem ser instanciados e preenchidos nas páginas. 
 
 #### Estrutura do objeto JavaScript
-O objeto Javascript citado anteriormente segue o modelo de um JSON Flatten Object e são aceitos **apenas valores do tipo String**. A estrutura proposta deve ser rigorosamente seguida e o preenchimento de diferentes atributos que estão diretamente ligados, deve ser realizado de forma coerente, em relação as posições que serão adicionadas nos Arrays. Veja abaixo:
+O objeto Javascript ,citado anteriormente, recebe o nome **utag_data** e sua estrutura pode ser encontrada aqui. Além disso, o objeto segue o modelo de um JSON Flatten Object e são aceitos **apenas valores do tipo String**. A estrutura proposta deve ser rigorosamente seguida e o preenchimento de diferentes atributos que estão diretamente ligados, deve ser realizado de forma coerente, em relação as posições que serão adicionadas nos Arrays. Veja abaixo:
 > Quando o tipo do atributo for "Array de String", na verdade o valor esperado é uma String separada por virgulas, onde cada elemento representa uma posição. Exemplo: "VCP_SDU, SDU_VCP"
 
 #### Variáveis da camada de dados
