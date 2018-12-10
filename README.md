@@ -48,6 +48,16 @@ Para um **rastreamento de evento**, é necessário utilizar o seguinte comando:
 e suas respectivas informações definidas a seguir neste documento.
 
 ## Camada de dados
+#### Implantação objeto JavaScript
+Para coletar informações do visitante que navega no site TudoAzul, um dos passos é o preenchimento dinâmico da Camada de Dados (Data Layer), que irá possibilitar a captura de informações via tag manager (Tealium).
+
+A Camada de Dados (Data Layer) é composta pelo objeto Javascript (descrito a seguir) e por triggers personalizadas. A mesma foi desenhada e estruturada baseando-se nas informações que são relevantes para compor os relatórios de Web Analytics desejados.
+
+A seguir está a descrição de cada um dos atributos do objeto e quando devem ser instanciados e preenchidos nas páginas. 
+
+#### Estrutura do objeto JavaScript
+O objeto Javascript citado anteriormente segue o modelo de um JSON Flatten Object e são aceitos **apenas valores do tipo String**. A estrutura proposta deve ser rigorosamente seguida e o preenchimento de diferentes atributos que estão diretamente ligados, deve ser realizado de forma coerente, em relação as posições que serão adicionadas nos Arrays. Veja abaixo:
+> Quando o tipo do atributo for "Array de String", na verdade o valor esperado é uma String separada por virgulas, onde cada elemento representa uma posição. Exemplo: "VCP_SDU, SDU_VCP"
 
 #### Variáveis da camada de dados
 | Variável                  	| Descrição                                                       	| Exemplo                                                	| Tipo   	|
