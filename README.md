@@ -140,7 +140,8 @@ _Condição para preenchimento:_ "Após o usuário alterar suas informações e 
 | customer_phone            	|
 | customer_prefDestination  	|
 | customer_prefOrigin       	|
-| event_name                  | > O valor do event_name deverá ser "salvou-alteracoes"
+| event_name                  | 
+> O valor do event_name deverá ser "salvou-alteracoes"
 
 ##### Grupo 4
 _Condição para preenchimento:_ "Quando o usuário alterar sua senha com sucesso.
@@ -152,3 +153,4 @@ OBS: Deve ocorrer uma chamada do tipo "Rastreamento de eventos/ações".
 | user_email          |
 | user_tudoAzulNumber |
 | customer_cpf        |
+> O valor do event_name deverá ser "alterou-senha"
