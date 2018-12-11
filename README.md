@@ -61,34 +61,39 @@ Além disso, o objeto segue o modelo de um JSON Flatten Object e são aceitos **
 > Quando o tipo do atributo for "Array de String", na verdade o valor esperado é uma String separada por virgulas, onde cada elemento representa uma posição. Exemplo: "VCP_SDU, SDU_VCP"
 
 #### Variáveis da camada de dados
-| Variável                  	| Descrição                                                       	| Exemplo                                                	| Tipo   	|
-|---------------------------	|-----------------------------------------------------------------	|--------------------------------------------------------	|--------	|
-| customer_childrenQuantity 	| Quantidade de filhos de um usuário                              	| "2", "1", "0"                                          	| String 	|
-| customer_childrenQuantity 	| Quantidade de filhos de um usuário                              	| "2", "1", "0"                                          	| String 	|
-| customer_companyName      	| Nome da empresa informada pelo usuário                          	| "Azul Viagens", "Bradesco", ...                        	| String 	|
-| customer_companyRole      	| Cargo informado pelo usuário                                    	| "Analista", "Diretor", ...                             	| String 	|
-| customer_cpf              	| Cpf do visitante                                                	| "22233366638"                                          	| String 	|
-| customer_dateBirth        	| Data de nascimento do usuário                                   	| "01-05-1998", "12-08-1992"                             	| String 	|
-| customer_dateBirth        	| Data de nascimento do usuário                                   	| "01-05-1998", "12-08-1992"                             	| String 	|
-| customer_freq_tripYear    	| Quantidade de viagens a lazer por ano, selecionado pelo usuário 	| "0", "1", "2", ...                                     	| String 	|
-| customer_gender           	| Gênero do usuário                                               	| "m", "f"                                               	| String 	|
-| customer_gender           	| Gênero do usuário                                               	| "m", "f"                                               	| String 	|
-| customer_language         	| Idioma escolhido do usuáio                                      	| "pt", "en", ...                                        	| String 	|
-| customer_language         	| Idioma escolhido do usuáio                                      	| "pt", "en", ...                                        	| String 	|
-| customer_marital status   	| Estado civil do usuário                                         	| "Solteiro(a)", "Casado(a)", ...                        	| String 	|
-| customer_marital status   	| Estado civil do usuário                                         	| "Solteiro(a)", "Casado(a)", ...                        	| String 	|
-| customer_phone            	| Telefone do usuário                                             	| 11941434675                                            	| String 	|
-| customer_prefDestination  	| Aeroporto de destino preferenial escolhido pelo usuário         	| "VCP", "SDU", ...                                      	| String 	|
-| customer_prefOrigin       	| Aeroporto de origem preferencial escolhido pelo usuário         	| "VCP", "SDU", ...                                      	| String 	|
-| pageName                  	| Nome da página                                                  	| "homepage", "comprar passagens"                        	| String 	|
-| section                   	| Sessão do site que o visitante está acessando                   	| "institucional", fluxo de compra"                      	| String 	|
-| siteLanguage              	| Linguagem do site                                               	| "pt", "en"                                             	| String 	|
-| user_email                	| E-mail cadastrado no programa TudoAzul                          	| "fernanda.gomes@gmail.com", "carlos.silva@htomail.com" 	| String 	|
-| user_name                 	| Nome do usuário                                                 	| "Fernanda", "Carlos"                                   	| String 	|
-| user_pointsBalance        	| Saldo de pontos do programa TudoAzul                            	| "600000", "77383"                                      	| String 	|
-| user_tudoAzulNumber       	| Número tudoAzul do usuário                                      	| "46201893124", "7990056511"                            	| String 	|
-| user_userClassification   	| Classificação no programa TudoAzul                              	| "TudoAzul", "Safira"...                                	| String 	|
-| visitorLoginStatus        	| Status do visitante do site                                     	| "true","false"                                         	| String 	|
+| Variável                  | Descrição                                                       | Exemplo                                                | Tipo   |
+|---------------------------|-----------------------------------------------------------------|--------------------------------------------------------|--------|
+| customer_childrenQuantity | Quantidade de filhos de um usuário                              | "2", "1", "0"                                          | String |
+| customer_companyName      | Nome da empresa informada pelo usuário                          | "Azul Viagens", "Bradesco", ...                        | String |
+| customer_companyRole      | Cargo informado pelo usuário                                    | "Analista", "Diretor", ...                             | String |
+| customer_cpf              | Cpf do visitante                                                | "22233366638"                                          | String |
+| customer_dateBirth        | Data de nascimento do usuário                                   | "01-05-1998", "12-08-1992"                             | String |
+| customer_freq_tripYear    | Quantidade de viagens a lazer por ano, selecionado pelo usuário | "0", "1", "2", ...                                     | String |
+| customer_gender           | Gênero do usuário                                               | "m", "f"                                               | String |
+| customer_language         | Idioma escolhido do usuáio                                      | "pt", "en", ...                                        | String |
+| customer_marital status   | Estado civil do usuário                                         | "Solteiro(a)", "Casado(a)", ...                        | String |
+| customer_phone            | Telefone do usuário                                             | 11941434675                                            | String |
+| customer_prefCinema       | Preferências escolhidas em: Cinema                              | "Ação", "Aventura-Romance", ...                        | String |
+| customer_prefDestination  | Aeroporto de destino preferenial escolhido pelo usuário         | "VCP", "SDU", ...                                      | String |
+| customer_prefGastronomy   | Preferências escolhidas em: Gastronomia                         | "Restaurantes-Vinhos", "Outros", ...                   | String |
+| customer_prefInternet     | Preferências escolhidas em: Atividades culturais                | "Museu", "Artes_plásticas", ...                        | String |
+| customer_prefMusic        | Preferências escolhidas em: Música                              | "Rock", "MPB-Jazz-Sertanejo-Clássica", ...             | String |
+| customer_prefNightLife    | Preferências escolhidas em: Vida noturna                        | "Bares-Shows", "Restaurantes", ...                     | String |
+| customer_prefOrigin       | Aeroporto de origem preferencial escolhido pelo usuário         | "VCP", "SDU", ...                                      | String |
+| customer_prefPets         | Preferências escolhidas em: Animais de estimação                | "Cães-Gatos", "Peixes", ...                            | String |
+| customer_prefReading      | Preferências escolhidas em: Leitura                             | "Quadrinhos", "Jornais-Revistas", ...                  | String |
+| customer_prefSport        | Preferências escolhidas em: Esporte                             | "Academia_ao_ar_livre-Boxe", "Golfe", ...              | String |
+| customer_prefTheater      | Preferências escolhidas em: Teatro                              | "Comédia", "Drama-Suspense", ...                       | String |
+| event_name                | Nome do evento                                                  | "salvou-alteracoes"                                    | String |
+| pageName                  | Nome da página                                                  | "homepage", "comprar passagens"                        | String |
+| section                   | Sessão do site que o visitante está acessando                   | "institucional", fluxo de compra"                      | String |
+| siteLanguage              | Linguagem do site                                               | "pt", "en"                                             | String |
+| user_email                | E-mail cadastrado no programa TudoAzul                          | "fernanda.gomes@gmail.com", "carlos.silva@htomail.com" | String |
+| user_name                 | Nome do usuário                                                 | "Fernanda", "Carlos"                                   | String |
+| user_pointsBalance        | Saldo de pontos do programa TudoAzul                            | "600000", "77383"                                      | String |
+| user_tudoAzulNumber       | Número tudoAzul do usuário                                      | "46201893124", "7990056511"                            | String |
+| user_userClassification   | Classificação no programa TudoAzul                              | "TudoAzul", "Safira"...                                | String |
+| visitorLoginStatus        | Status do visitante do site                                     | "true","false"                                         | String |
 
 #### Grupos de preenchimento
 Nesta parte, será descrito os grupos para as variáveis acima, com suas respectivas condições de preenchimento
@@ -135,3 +140,15 @@ _Condição para preenchimento:_ "Após o usuário alterar suas informações e 
 | customer_phone            	|
 | customer_prefDestination  	|
 | customer_prefOrigin       	|
+| event_name                  | > O valor do event_name deverá ser "salvou-alteracoes"
+
+##### Grupo 4
+_Condição para preenchimento:_ "Quando o usuário alterar sua senha com sucesso.
+OBS: Deve ocorrer uma chamada do tipo "Rastreamento de eventos/ações".
+
+| Variável            |
+|---------------------|
+| event_name          |
+| user_email          |
+| user_tudoAzulNumber |
+| customer_cpf        |
