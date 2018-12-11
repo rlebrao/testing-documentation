@@ -72,7 +72,7 @@ Além disso, o objeto segue o modelo de um JSON Flatten Object e são aceitos **
 | customer_gender           | Gênero do usuário                                               | "m", "f"                                               | String |
 | customer_language         | Idioma escolhido do usuáio                                      | "pt", "en", ...                                        | String |
 | customer_marital status   | Estado civil do usuário                                         | "Solteiro(a)", "Casado(a)", ...                        | String |
-| customer_phone            | Telefone do usuário                                             | 11941434675                                            | String |
+| customer_phone            | Telefone do usuário                                             | "11941434675", "12955667788", ...                                            | String |
 | customer_prefCinema       | Preferências escolhidas em: Cinema                              | "Ação", "Aventura-Romance", ...                        | String |
 | customer_prefDestination  | Aeroporto de destino preferenial escolhido pelo usuário         | "VCP", "SDU", ...                                      | String |
 | customer_prefGastronomy   | Preferências escolhidas em: Gastronomia                         | "Restaurantes-Vinhos", "Outros", ...                   | String |
